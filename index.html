@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CAT Bahasa Inggris Kelas X</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--tx:#1d2433;--mu:#5b6475;--ac:#2f5bea;--bd:#d9deea;--ok:#e8eefe;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12151c;--card:#1b2030;--tx:#e8ebf3;--mu:#9aa3b8;--ac:#7c9bff;--bd:#30374b;--ok:#25304f}}
+:root[data-theme="dark"]{--bg:#12151c;--card:#1b2030;--tx:#e8ebf3;--mu:#9aa3b8;--ac:#7c9bff;--bd:#30374b;--ok:#25304f}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:16px}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:18px;margin-bottom:14px}
+h1{font-size:1.3rem;margin:0 0 6px}p{margin:6px 0}.mu{color:var(--mu);font-size:.9rem}
+input{width:100%;padding:10px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--tx);font-size:1rem;margin:8px 0}
+button{font:inherit;cursor:pointer}
+.b{background:var(--ac);color:#fff;border:0;border-radius:10px;padding:11px 20px;font-weight:600}.b:disabled{opacity:.4}
+.o{display:block;width:100%;text-align:left;background:var(--card);color:var(--tx);border:1px solid var(--bd);border-radius:10px;padding:11px 14px;margin:8px 0}
+.o.s{border-color:var(--ac);background:var(--ok)}
+.t{white-space:pre-line;background:var(--bg);border-left:4px solid var(--ac);padding:10px 14px;border-radius:6px;margin-bottom:12px;font-size:.95rem}
+.bar{height:6px;background:var(--bd);border-radius:3px;overflow:hidden;margin-bottom:12px}.bar i{display:block;height:100%;background:var(--ac)}
+.big{font-size:2.6rem;font-weight:700;color:var(--ac)}.g{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.g div{background:var(--bg);border-radius:10px;padding:10px}
+.hd{display:none}
+@media print{.np{display:none}.hd{display:block}}
+</style></head><body><main>
+<div id="app"></div></main>
+<script>
+const T=["Borobudur Temple\nBorobudur Temple is one of the most famous tourist attractions in Indonesia. It is located in Magelang, Central Java. The temple was built in the 9th century by the Syailendra Dynasty. It is the largest Buddhist temple in the world.\nThe temple has nine levels: six square platforms and three circular platforms. On the top, there is a big stupa. The walls are decorated with more than 2,600 relief panels that tell stories about the life of Buddha.\nEvery year, thousands of visitors from many countries come to see its beauty, especially at sunrise.",
+"My Holiday in Lombok\nLast holiday, my family and I visited Lombok. We left Jakarta early in the morning and arrived at the Lombok airport at noon. After checking in at a small hotel near the beach, we went to Kuta Beach. The sand was white and the water was very clear.\nMy brother and I swam and built a sandcastle while our parents were taking photos. In the evening, we had dinner at a local restaurant and tried grilled fish with spicy sauce. It was delicious.\nThe next day, we climbed a small hill to enjoy the sunset. Finally, we went home on Sunday. It was an unforgettable holiday.",
+"How to Make Fried Rice\nIngredients: 2 plates of cooked rice, 2 eggs, 3 cloves of garlic, 2 tablespoons of sweet soy sauce, salt, and cooking oil.\nSteps:\nFirst, chop the garlic finely. Second, heat some oil in a frying pan. Third, fry the garlic until it smells good. Then, break the eggs into the pan and stir them. After that, add the rice and the sweet soy sauce, and mix them well. Finally, add a little salt and serve the fried rice while it is hot.",
+"ANNOUNCEMENT\nSMA Negeri 1 Harapan Bangsa will hold an English Speech Contest for Grade X students.\nDay/Date : Saturday, 14 November 2026\nTime : 08.00 a.m. - 12.00 p.m.\nPlace : School Hall\nInterested students must register to Mrs. Dewi in the English Department before 5 November 2026.\nThe Principal",
+"Dear Rani,\nI am going to celebrate my 16th birthday. I would like to invite you to my birthday party.\nDay/Date : Sunday, 22 November 2026\nTime : 4.00 p.m.\nPlace : 25 Melati Street\nPlease wear something blue and come on time. Please confirm your attendance by Friday.\nBest wishes,\nDina"];
+const Q=["Good morning, everyone. Let me ______ myself. My name is Rina, and I come from Class X-3.|introduce|introduces|introducing|introduced",
+"Mr. Hadi: 'Nice to meet you, Dina.'  Dina: '______'|I'm sorry to hear that.|Thank you very much.|Good luck.|Nice to meet you, too.",
+"My mother ______ to the traditional market every morning.|go|going|goes|gone",
+"Look at the students in the field! They ______ football right now.|play|are playing|plays|played",
+"Which of the following expressions is used to ASK for someone's opinion?|I agree with you.|I don't think so.|That's a great idea.|What do you think about this plan?",
+"Rudi: 'Would you like me to carry your bag?'  Sari: '______'|Yes, please. Thank you.|No, I won't.|I don't know.|It's my bag.",
+"Andi: 'I passed the entrance test of my dream university.'  Budi: '______'|I'm sorry to hear that.|Congratulations!|Take care.|Be careful.",
+"Yesterday, we ______ a funny movie at the cinema.|watch|watches|watching|watched",
+"Sinta ______ her homework when her friend called her last night.|was doing|does|is doing|has done",
+"You ______ wear a helmet when you ride a motorcycle. It is the law.|may|might|must|can",
+"The word 'enormous' has the same meaning as ______.|tiny|narrow|weak|huge",
+"The opposite of the word 'ancient' is ______.|old|modern|historic|traditional",
+"Of all the girls in our class, Maya is ______.|the tallest|taller|tall|more tall",
+"This novel is ______ than the one I read last week.|interesting|most interesting|more interesting|the more interesting",
+"The meeting will start ______ 9 a.m. on Monday.|in|on|by|at",
+"My birthday is ______ August.|at|in|on|by",
+"There isn't ______ milk in the fridge, so I will buy some at the store.|any|some|many|a few",
+"I have lived in this city ______ 2015.|for|during|since|while",
+"He was very tired, ______ he kept working until midnight.|so|but|because|and",
+"If it rains tomorrow, we ______ the picnic.|cancel|cancelled|will cancel|would cancelled",
+"What is the text about?|The history of Magelang|The Buddhist religion|Borobudur Temple|Tourist attractions in Central Java",
+"Who built the temple?|The Syailendra Dynasty|The Majapahit Kingdom|The Mataram Kingdom|The Sriwijaya Kingdom",
+"How many levels does the temple have?|Six|Three|Twelve|Nine",
+"'The walls are decorated with more than 2,600 relief panels.' The word 'decorated' is closest in meaning to ______.|destroyed|made beautiful|hidden|cleaned",
+"Which statement is TRUE according to the text?|Many visitors come to see the temple at sunrise.|The temple has ten levels.|The temple is located in West Java.|The relief panels tell stories about a king.",
+"What is the purpose of the text?|To describe Kuta Beach|To persuade readers to visit Lombok|To retell a past experience|To explain how to travel to Lombok",
+"Where did the writer's family stay in Lombok?|In a big resort in the city|In a small hotel near the beach|At a relative's house|In a tent on the hill",
+"What did the writer and his brother do at Kuta Beach?|They took photos.|They had dinner.|They climbed a hill.|They swam and built a sandcastle.",
+"How did the writer feel about the grilled fish?|It was delicious.|It was too spicy.|It was expensive.|It was cold.",
+"'It was an unforgettable holiday.' This sentence belongs to the ______ of the text.|orientation|events|re-orientation|complication",
+"What is the text about?|How to cook plain rice|How to make fried rice|The ingredients of fried rice|A restaurant's menu",
+"How many eggs do we need to make the dish?|One|Three|Two|Four",
+"What should we do after frying the garlic?|Add the rice.|Add some salt.|Serve the fried rice.|Break the eggs into the pan.",
+"'Serve the fried rice while it is hot.' The word 'it' refers to ______.|the fried rice|the pan|the oil|the garlic",
+"The word 'Finally' in the text is used to show ______.|the first step|the last step|a reason|a contrast",
+"Who can join the contest?|All students of the school|English teachers|Grade XI students|Grade X students",
+"What is the deadline to register for the contest?|Before 5 November 2026|On 14 November 2026|After the contest|On Saturday morning",
+"What is the purpose of the letter?|To thank Rani|To ask for help|To invite Rani to a birthday party|To congratulate Rani",
+"What should Rani wear to the party?|A white dress|A red shirt|A school uniform|Something blue",
+"What does Dina ask Rani to do before the party?|Bring a gift|Confirm her attendance|Cook some food|Buy a cake"].map(s=>s.split("|"));
+const K="ADCBDABDACDBACDBACBCCADBACBDACBCDABDACDB".replace(/(.)/g,"$1");
+const KEY="ADCBDABDACDBACDBACBC"+"CADBA"+"CBDAC"+"BCDAB"+"DA"+"CDB";
+const A=[1.2,1.0,1.1,1.3,1.4,.9,.8,1.2,1.5,1.3,1.4,1.6,1.2,1.3,1.1,1.0,1.5,1.4,1.6,1.3,.9,1.0,1.1,1.5,1.4,1.3,1.2,1.0,.9,1.7,.8,1.0,1.4,1.3,1.2,1.0,1.1,.9,1.0,1.1];
+const B=[-1.5,-2,-1.2,-1,-.8,-1.3,-1.8,-1,.5,-.3,.2,.6,-.2,-.5,-1,-1.4,.8,0,1,-.4,-1.8,-1.5,-1.2,.5,0,.2,-1,-1.2,-1.6,1.2,-2,-1.5,-.4,.3,-.6,-1.4,-1,-1.7,-1.5,-1];
+const PS=i=>i<20?-1:i<25?0:i<30?1:i<35?2:i<37?3:4;
+const SE_STOP=.35,MIN=8,MAX=20,L="ABCD";
+const P=(t,i)=>1/(1+Math.exp(-A[i]*(t-B[i])));
+const grid=[];for(let g=-4;g<=4.0001;g+=.05)grid.push(g);
+function eap(idx,rs){let w=grid.map(g=>Math.exp(-g*g/2));idx.forEach((i,k)=>{w=w.map((x,j)=>{const p=P(grid[j],i);return x*(rs[k]?p:1-p)})});
+const s=w.reduce((a,b)=>a+b,0);w=w.map(x=>x/s);const th=w.reduce((a,x,j)=>a+x*grid[j],0);
+return[th,Math.sqrt(w.reduce((a,x,j)=>a+x*(grid[j]-th)**2,0))]}
+const info=(t,i)=>{const p=P(t,i);return A[i]**2*p*(1-p)};
+const skor100=t=>Math.round(250*[...Array(40).keys()].reduce((a,i)=>a+P(t,i),0))/100*1;
+let S;const app=document.getElementById("app");
+function home(){app.innerHTML=`<div class="c"><h1>CAT Bahasa Inggris Kelas X</h1><p class="mu">Soal menyesuaikan kemampuanmu; jumlah soal 8&ndash;20. Pilih satu jawaban lalu tekan Lanjut. Jawaban tidak bisa diubah setelah dikirim.</p>
+<input id="nm" placeholder="Nama lengkap"><input id="kl" placeholder="Kelas / No. absen"><button class="b" id="go">Mulai Tes</button></div>`;
+document.getElementById("go").onclick=()=>{const n=nm.value.trim();if(!n){nm.focus();return}
+S={nama:n,kelas:kl.value.trim(),used:[],rs:[],th:0,se:1,cur:null};next()}}
+function next(){const rem=[...Array(40).keys()].filter(i=>!S.used.includes(i));
+S.cur=rem.reduce((b,i)=>info(S.th,i)>info(S.th,b)?i:b,rem[0]);show()}
+function show(){const i=S.cur,n=S.used.length+1,q=Q[i],p=PS(i);let sel=null;
+app.innerHTML=`<div class="c"><div class="mu">${S.nama} &middot; Soal ke-${n} (maks. ${MAX})</div><div class="bar"><i style="width:${(n-1)/MAX*100}%"></i></div>
+${p>=0?`<div class="t">${T[p]}</div>`:""}<p><b>${q[0]}</b></p>
+${[1,2,3,4].map(k=>`<button class="o" data-k="${k-1}"><b>${L[k-1]}.</b> ${q[k]}</button>`).join("")}
+<button class="b" id="nx" disabled>Lanjut</button></div>`;
+app.querySelectorAll(".o").forEach(b=>b.onclick=()=>{sel=+b.dataset.k;app.querySelectorAll(".o").forEach(x=>x.classList.remove("s"));b.classList.add("s");nx.disabled=false});
+nx.onclick=()=>{S.used.push(i);S.rs.push(L[sel]===KEY[i]?1:0);[S.th,S.se]=eap(S.used,S.rs);
+const m=S.used.length;(m>=MIN&&S.se<=SE_STOP)||m>=MAX?done():next()}}
+function done(){const t=S.th,b=S.rs.reduce((a,x)=>a+x,0);
+app.innerHTML=`<div class="c"><h1>Hasil Tes</h1><p>${S.nama}${S.kelas?" &middot; "+S.kelas:""}</p>
+<p class="mu">Nilai Akhir (skala 0&ndash;100)</p><div class="big">${skor100(t).toFixed(1)}</div>
+<div class="g"><div><span class="mu">Kemampuan (&theta;)</span><br><b>${t.toFixed(2)}</b></div><div><span class="mu">SE</span><br><b>${S.se.toFixed(2)}</b></div>
+<div><span class="mu">Skor T</span><br><b>${(50+10*t).toFixed(1)}</b></div><div><span class="mu">Soal dikerjakan / benar</span><br><b>${S.used.length} / ${b}</b></div></div>
+<p class="mu">Nilai akhir adalah estimasi setara 40 soal &times; 2,5 berdasarkan kemampuan (&theta;). Parameter soal masih estimasi awal.</p>
+<button class="b np" onclick="window.print()">Cetak / Simpan PDF</button> <button class="o np" style="display:inline-block;width:auto" onclick="home()">Peserta baru</button></div>`}
+home();
+</script></body></html>
